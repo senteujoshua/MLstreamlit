@@ -8,4 +8,4 @@ with st.expander('Data'):
   df
 st.write('**X**')
 x = df[:-1]
-
+x
