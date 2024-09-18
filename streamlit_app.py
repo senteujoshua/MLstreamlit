@@ -6,4 +6,6 @@ with st.expander('Data'):
   st.write('**Raw Data**')
   df = pd.read_csv("bezdekIris.data")
   df
+st.write('**X**")
+x = df[:-1]
 
