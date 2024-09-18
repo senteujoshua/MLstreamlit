@@ -7,5 +7,5 @@ with st.expander('Data'):
   df = pd.read_csv("bezdekIris.data")
   df
 st.write('**X**')
-x = df[:-1]
+x = df[-1:]
 x
