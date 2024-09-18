@@ -15,11 +15,16 @@ x
 st.write('**Y (Features)**')
 y = df['species']
 
-with st.expander('Data Visualization'):
-  st.scatter_chart(data = df, x="sepal_length",y="species",color = "species")
-with st.expander('Data Visualization'):
-  st.scatter_chart(data = df, x="sepal_width",y="species",color = "species")
-with st.expander('Data Visualization'):
-  st.scatter_chart(data = df, x="petal_length",y="species",color = "species")
-with st.expander('Data Visualization'):
-  st.scatter_chart(data = df, x="petal_width",y="species",color = "species")
+# with st.expander('Data Visualization'):
+#   st.scatter_chart(data = df, x="sepal_length",y="species",color = "species")
+# with st.expander('Data Visualization'):
+#   st.scatter_chart(data = df, x="sepal_width",y="species",color = "species")
+# with st.expander('Data Visualization'):
+#   st.scatter_chart(data = df, x="petal_length",y="species",color = "species")
+# with st.expander('Data Visualization'):
+#   st.scatter_chart(data = df, x="petal_width",y="species",color = "species")
+with st.sidebar:
+  st.header('Imput feature')
+  sepal_length = st.selectbox['']
+  st.selectbox['']
+  
