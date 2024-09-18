@@ -12,3 +12,8 @@ with st.expander('Data'):
 st.write('**X (Features)**')
 x = df.drop("species",axis=1)
 x
+st.write('**Y (Features)**')
+y = df['species']
+
+with st.expander('Data Visualization'):
+  st.scatter_chart(data = df, x="sepal_width",y="species",color = "species")
